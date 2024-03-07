@@ -1,0 +1,5 @@
+<ul>
+  {% for section in down_sections %}
+    <li>{% include 'tree/includes/section.html' with  active=False link=True %}</li>
+  {% endfor %}
+</ul>
